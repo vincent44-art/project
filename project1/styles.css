@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-right: 20px;
+    background-color: yellow
+}
+
+/* Banner Section Styling */
+
+.banner {
+    background: url('image/image copy 8.png') no-repeat center center/cover; 
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.banner p {
+    font-size: 1.5rem;
+}
+
+/* Box Container Layout */
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+/* Box Styling */
+.box {
+    padding: 80px;
+    color: rgb(15, 14, 14);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 900px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+/* Different background colors for each box */
+.home {
+    background:url('image/image copy 10.png') no-repeat center center/cover;
+    color: white;
+}
+
+.about {
+    background: url('image/image copy 11.png') no-repeat center center/cover;
+    color: white;
+    
+
+}
+
+.products {
+    background:url('image/image copy 7.png') no-repeat center center/cover;
+    color: white;
+}
+
+.contact {
+    background:url('image copy 2.png') no-repeat center center/cover;
+    color: white;
+}
+
+.footer {
+    background:url('image/image copy 6.png') repeat;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .box-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .box-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .box-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .box-container {
+        grid-template-columns: 1fr;
+    }
+}
