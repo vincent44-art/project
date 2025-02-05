@@ -22,7 +22,20 @@ body {
   header h2{
     align-self: center;
   }
-  
+  /* Dark Mode Styling */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+body.dark-mode .site-header,
+body.dark-mode .site-footer {
+  background-color: #222;
+}
+body.dark-mode .btn,
+body.dark-mode .contact button {
+  background-color: #fff;
+  color: #4CAF50;
+}
   nav ul {
     list-style: none;
     padding: 0;
