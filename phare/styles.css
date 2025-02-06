@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #050505;
+    background-color: #f0f8f6;
+    align-self: center;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  /* Dark Mode Styling */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+body.dark-mode .site-header,
+body.dark-mode .site-footer {
+  background-color: #222;
+}
+body.dark-mode .btn,
+body.dark-mode .contact button {
+  background-color: #fff;
+  color: #4CAF50;
+}
+  
+  header h1 {
+    margin: 0;
+  }
+  header h2{
+    align-self: center;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background: #333;
+    color: #ecdbdb;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #555;
+  }
+  
+  /* Product List Styles */
+  #product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #product-list li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
