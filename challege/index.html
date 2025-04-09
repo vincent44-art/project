@@ -1,0 +1,702 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serene Wellness Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Serene Wellness</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i id="menu-icon" data-lucide="menu"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#services" class="mobile-link">Services</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#team" class="mobile-link">Team</a></li>
+            <li><a href="#testimonials" class="mobile-link">Testimonials</a></li>
+            <li><a href="#pricing" class="mobile-link">Pricing</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-fade-in">Serene <span class="highlight">Wellness</span> Studio</h1>
+                <h2 class="animate-fade-in">Luxurious <span class="highlight">Relaxation</span> & Beauty Services</h2>
+                <p class="animate-fade-in">Indulge in our premium grooming and wellness services designed to rejuvenate your body and mind in a tranquil, elegant environment.</p>
+                <div class="hero-buttons animate-fade-in">
+                    <a href="#booking" class="btn btn-primary">Book Appointment</a>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
+                </div>
+            </div>
+        </div>
+        <a href="#services" class="scroll-down">
+            <i data-lucide="arrow-down"></i>
+        </a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-softcream">
+        <div class="container">
+            <h2 class="section-heading">Our Services</h2>
+            <p class="section-subheading">Indulge in our premium wellness and beauty treatments designed to rejuvenate and restore.</p>
+            
+            <div class="services-grid">
+                <!-- Haircuts & Styling -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="scissors"></i>
+                    </div>
+                    <h3 class="service-title">Haircuts & Styling</h3>
+                    <p class="service-description">Expert cuts and styling for all hair types. Our skilled stylists create looks that enhance your natural beauty and fit your lifestyle.</p>
+                    <ul class="service-features">
+                        <li><span class="bullet">•</span> Precision Haircuts</li>
+                        <li><span class="bullet">•</span> Color & Highlights</li>
+                        <li><span class="bullet">•</span> Blowouts & Styling</li>
+                        <li><span class="bullet">•</span> Hair Treatments</li>
+                    </ul>
+                    <div class="service-footer">
+                        <a href="#booking" class="book-link">Book Now →</a>
+                    </div>
+                </div>
+
+                <!-- Massage Therapy -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="heart"></i>
+                    </div>
+                    <h3 class="service-title">Massage Therapy</h3>
+                    <p class="service-description">Relax and rejuvenate with our therapeutic massage services. Our licensed therapists customize each session to address your specific needs.</p>
+                    <ul class="service-features">
+                        <li><span class="bullet">•</span> Swedish Massage</li>
+                        <li><span class="bullet">•</span> Deep Tissue</li>
+                        <li><span class="bullet">•</span> Hot Stone</li>
+                        <li><span class="bullet">•</span> Aromatherapy</li>
+                    </ul>
+                    <div class="service-footer">
+                        <a href="#booking" class="book-link">Book Now →</a>
+                    </div>
+                </div>
+
+                <!-- Salon & Beauty -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="sparkles"></i>
+                    </div>
+                    <h3 class="service-title">Salon & Beauty</h3>
+                    <p class="service-description">Complete your look with our comprehensive beauty services. From nail care to facial treatments, we help you look and feel your best.</p>
+                    <ul class="service-features">
+                        <li><span class="bullet">•</span> Manicure & Pedicure</li>
+                        <li><span class="bullet">•</span> Facial Treatments</li>
+                        <li><span class="bullet">•</span> Waxing Services</li>
+                        <li><span class="bullet">•</span> Makeup Application</li>
+                    </ul>
+                    <div class="service-footer">
+                        <a href="#booking" class="book-link">Book Now →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section-padding bg-cream">
+        <div class="container">
+            <h2 class="section-heading">Our Team</h2>
+            <p class="section-subheading">Meet our skilled professionals dedicated to providing exceptional service and care.</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="image copy 2.png" alt="Sarah Johnson">
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Johnson</h3>
+                        <p class="member-role">Senior Stylist</p>
+                        <p class="member-bio">With over 10 years of experience, Sarah specializes in precision cuts and color techniques.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="image copy 3.png" alt="Michael Torres">
+                    </div>
+                    <div class="member-info">
+                        <h3>Michael Torres</h3>
+                        <p class="member-role">Licensed Massage Therapist</p>
+                        <p class="member-bio">Michael combines Swedish and deep tissue techniques to create a customized massage experience.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="image copy 4.png" alt="Emily Chen">
+                    </div>
+                    <div class="member-info">
+                        <h3>Emily Chen</h3>
+                        <p class="member-role">Esthetician</p>
+                        <p class="member-bio">Emily specializes in facial treatments and skincare routines tailored to your unique needs.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="image copy 5.png" alt="David Wilson">
+                    </div>
+                    <div class="member-info">
+                        <h3>David Wilson</h3>
+                        <p class="member-role">Nail Technician</p>
+                        <p class="member-bio">David creates stunning nail art and provides meticulous manicures and pedicures.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-gradient-spa">
+        <div class="container">
+            <h2 class="section-heading light">Client Testimonials</h2>
+            <p class="section-subheading light">Hear from our satisfied clients about their experiences at Serene Wellness Studio.</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-container">
+                    <div class="testimonial-track">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                            </div>
+                            <p class="testimonial-text">"The massage therapy at Serene Wellness is exceptional. I leave feeling completely renewed every time. The atmosphere is so peaceful and the staff is always professional."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1686&q=80" alt="Jennifer Smith">
+                                <div>
+                                    <h4>Jennifer Smith</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                            </div>
+                            <p class="testimonial-text">"I've been coming for haircuts for months now, and I've never been disappointed. Sarah really understands my style and always exceeds my expectations."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1686&q=80" alt="Robert Johnson">
+                                <div>
+                                    <h4>Robert Johnson</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                            </div>
+                            <p class="testimonial-text">"The facial treatment I received was amazing! Emily took the time to analyze my skin and recommended products that have really improved my complexion."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Maria Rodriguez">
+                                <div>
+                                    <h4>Maria Rodriguez</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star" class="star-filled"></i>
+                                <i data-lucide="star"></i>
+                            </div>
+                            <p class="testimonial-text">"The whole experience from booking to service was seamless. The pedicure was the best I've ever had, and the relaxing environment made it even better."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Thomas Lee">
+                                <div>
+                                    <h4>Thomas Lee</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn"><i data-lucide="chevron-left"></i></button>
+                    <button class="next-btn"><i data-lucide="chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section-padding bg-softcream">
+        <div class="container">
+            <h2 class="section-heading">Our Pricing</h2>
+            <p class="section-subheading">Transparent pricing for our premium services with no hidden fees.</p>
+            
+            <div class="pricing-grid">
+                <!-- Haircuts & Styling Pricing -->
+                <div class="pricing-card">
+                    <h3>Haircuts & Styling</h3>
+                    <ul class="price-list">
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Women's Haircut</span>
+                            </div>
+                            <span class="price">2000</span>+</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Men's Haircut</span>
+                            </div>
+                            <span class="price">2900</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Children's Haircut</span>
+                            </div>
+                            <span class="price">290</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Blowout & Style</span>
+                            </div>
+                            <span class="price">200</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Hair Color</span>
+                            </div>
+                            <span class="price">290</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Highlights</span>
+                            </div>
+                            <span class="price">270</span>
+                        </li>
+                    </ul>
+                    <div class="pricing-footer">
+                        <a href="#booking" class="btn btn-outline-gold">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Massage Therapy Pricing -->
+                <div class="pricing-card">
+                    <h3>Massage Therapy</h3>
+                    <ul class="price-list">
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>30 Min Massage</span>
+                            </div>
+                            <span class="price">290</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>60 Min Massage</span>
+                            </div>
+                            <span class="price">2890</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>90 Min Massage</span>
+                            </div>
+                            <span class="price">2890</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Hot Stone Add-on</span>
+                            </div>
+                            <span class="price">2790</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Aromatherapy Add-on</span>
+                            </div>
+                            <span class="price">2567</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Couples Massage</span>
+                            </div>
+                            <span class="price">3578</span>
+                        </li>
+                    </ul>
+                    <div class="pricing-footer">
+                        <a href="#booking" class="btn btn-outline-gold">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Salon & Beauty Pricing -->
+                <div class="pricing-card">
+                    <h3>Salon & Beauty</h3>
+                    <ul class="price-list">
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Basic Facial</span>
+                            </div>
+                            <span class="price">2450</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Deluxe Facial</span>
+                            </div>
+                            <span class="price">345</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Manicure</span>
+                            </div>
+                            <span class="price">3546</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Pedicure</span>
+                            </div>
+                            <span class="price">364</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Mani-Pedi Combo</span>
+                            </div>
+                            <span class="price">3546</span>
+                        </li>
+                        <li>
+                            <div class="price-item">
+                                <i data-lucide="check"></i>
+                                <span>Waxing Services</span>
+                            </div>
+                            <span class="price">344676</span>
+                        </li>
+                    </ul>
+                    <div class="pricing-footer">
+                        <a href="#booking" class="btn btn-outline-gold">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="pricing-note">* Prices may vary based on length, thickness of hair, or treatment complexity. Please consult with our staff for a precise quote.</p>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section-padding bg-cream">
+        <div class="container">
+            <h2 class="section-heading">Book an Appointment</h2>
+            <p class="section-subheading">Schedule your visit to Serene Wellness Studio and take the first step towards relaxation and rejuvenation.</p>
+            
+            <form id="booking-form" class="booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="haircut">Haircut & Styling</option>
+                            <option value="color">Hair Color</option>
+                            <option value="massage">Massage Therapy</option>
+                            <option value="facial">Facial Treatment</option>
+                            <option value="manicure">Manicure</option>
+                            <option value="pedicure">Pedicure</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <select id="time" name="time" required>
+                            <option value="">Select a time</option>
+                            <option value="9:00">9:00 AM</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="12:00">12:00 PM</option>
+                            <option value="13:00">1:00 PM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="15:00">3:00 PM</option>
+                            <option value="16:00">4:00 PM</option>
+                            <option value="17:00">5:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Special Requests or Notes</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <div class="form-submit">
+                    <button type="submit" class="btn btn-primary">Book Appointment</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+    <div class="container">
+      <!-- Section Title -->
+      <div class="section-title">
+        <h2>Our Gallery</h2>
+        <p>Explore the serene beauty and luxurious experience of our spa through these captivating moments.</p>
+      </div>
+  
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- Image 1 -->
+        <div class="gallery-item">
+          <img src="image copy 12.png" alt="Spa Interior">
+          <div class="overlay">
+            <h3>Tranquil Ambiance</h3>
+            <p>Step into relaxation with our calming spa environment.</p>
+          </div>
+        </div>
+  
+        <!-- Image 2 -->
+        <div class="gallery-item">
+          <img src="image copy 12.png" alt="Massage Therapy">
+          <div class="overlay">
+            <h3>Relaxing Massage</h3>
+            <p>Experience ultimate relaxation with our expert massage therapists.</p>
+          </div>
+        </div>
+  
+        <!-- Image 3 -->
+        <div class="gallery-item">
+          <img src="image copy 6.png" alt="Facial Treatment">
+          <div class="overlay">
+            <h3>Rejuvenating Facials</h3>
+            <p>Revitalize your skin with our personalized facial treatments.</p>
+          </div>
+        </div>
+  
+        <!-- Image 4 -->
+        <div class="gallery-item">
+          <img src="image copy 8.png" alt="Aromatherapy">
+          <div class="overlay">
+            <h3>Aromatherapy Bliss</h3>
+            <p>Indulge in the soothing scents of nature with our aromatherapy sessions.</p>
+          </div>
+        </div>
+  
+        <!-- Image 5 -->
+        <div class="gallery-item">
+          <img src="image copy 9.png" alt="Yoga Session">
+          <div class="overlay">
+            <h3>Yoga & Meditation</h3>
+            <p>Find balance and peace with our guided yoga and meditation sessions.</p>
+          </div>
+        </div>
+  
+        <!-- Image 6 -->
+        <div class="gallery-item">
+          <img src="image copy 7.png" alt="Luxury Bath">
+          <div class="overlay">
+            <h3>Luxury Bath Experience</h3>
+            <p>Unwind in our luxurious baths designed for total relaxation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-heading left-aligned">Contact Us</h2>
+                    <p>We're here to answer any questions you might have about our services or to help you schedule an appointment.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Serenity Lane<br>Wellness District, WS 12345</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@serenewellness.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i data-lucide="clock"></i>
+                            <div>
+                                <h4>Hours</h4>
+                                <p>Monday - Friday: 9am - 7pm<br>Saturday: 9am - 5pm<br>Sunday: 10am - 3pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i data-lucide="instagram"></i></a>
+                        <a href="#" class="social-icon"><i data-lucide="facebook"></i></a>
+                        <a href="#" class="social-icon"><i data-lucide="twitter"></i></a>
+                        <a href="#" class="social-icon"><i data-lucide="youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3>Send Us a Message</h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" name="contact-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="contact-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" name="contact-subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="contact-message" rows="4" required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <h2>Serene <span class="highlight">Wellness</span></h2>
+                    <p>Luxurious relaxation & beauty services</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#team">Our Team</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#booking">Book Appointment</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Haircuts & Styling</a></li>
+                            <li><a href="#services">Massage Therapy</a></li>
+                            <li><a href="#services">Facial Treatments</a></li>
+                            <li><a href="#services">Nail Care</a></li>
+                            <li><a href="#services">Waxing</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Serene Wellness. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <span class="divider">|</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
